@@ -2,7 +2,11 @@
 > My progress and notes on the [Full stack curriculum compiled by the Department of Computer Science at the University of Helsinki in Spring 2020](https://fullstackopen.com/en/about)
  
 ## Part 00 Fundamentals of Web apps 
-<!-- - [Notes](./part-00) -->
+- [Notes](./part-00)
+- Exercises:
+    1. [HTTP Requests 1](./part-00/exercise-0.4)
+    2. [HTTP Requests 2](./part-00/exercise-0.5)
+    3. [HTTP Requests 3](./part-00/exercise-0.6)
 
 ## Part 01 Intro to React  
 <!-- - [Notes](./part-01) -->
