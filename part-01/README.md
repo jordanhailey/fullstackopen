@@ -22,3 +22,5 @@
 ### A more complex state, debugging React apps
 
 ## Exercises
+- **[1.1: Course Information](./exercise-1.1)**
+- **[1.2: Course Information, pt. 2](./exercise-1.1)**
