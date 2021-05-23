@@ -3,6 +3,7 @@
 
 ![Graphic depicting client-server communication when loading https://studies.cs.helsinki.fi/exampleapp/notes](./http-requests.png)
 
+<!-- 
 ## Overview
 > Review of HTTP Requests and their initiator
 1. `HTTP POST	https://studies.cs.helsinki.fi/exampleapp/new_note` - via form submission
@@ -11,7 +12,6 @@
 1. `HTTP GET	https://studies.cs.helsinki.fi/exampleapp/main.js` - via HTML document
 1. `HTTP GET	https://studies.cs.helsinki.fi/exampleapp/data.json` - via `main.js` execution
 
-<!-- 
 ## Details
 ### Form Submission
 - **Client** submits form which has a method of `POST`, and an action which points to `/new_note`, so it sends a *HTTP POST* request to `https://studies.cs.helsinki.fi/exampleapp/new_note`

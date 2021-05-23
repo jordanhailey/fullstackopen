@@ -3,9 +3,13 @@
 
 ![](./http-requests.png)
 
+<!--
 ## Overview
 > Review of HTTP Requests and their initiator
 1. 
 1. 
 1. 
 1. 
+
+## Details
+-->
