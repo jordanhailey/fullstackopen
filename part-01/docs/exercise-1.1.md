@@ -67,3 +67,6 @@ const App = () => {
 
 export default App
 ```
+
+## Solution
+See commit hash `78378228435c82f82d87d6706017ed2f85d916b2`
