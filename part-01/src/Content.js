@@ -10,7 +10,7 @@ const Content = (props) => {
       </div>
       <div className="exercises">
         <span>Exercises:</span>
-        <span>{Number(numExercises) == Number(numExercises) ? numExercises : 0}</span>
+        <span>{!isNaN(numExercises) ? numExercises : 0}</span>
       </div>
     </div>
   )
