@@ -4,7 +4,7 @@ const Header = (props) => {
   const {course} = props;
 
   return (
-    typeof course == "string" && <div>{course}</div>
+    typeof course == "string" && <h1>{course}</h1>
   )
 }
 

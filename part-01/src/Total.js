@@ -4,10 +4,9 @@ const Total = (props) => {
   const {total} = props;
 
   return (typeof total == "boolean" || isNaN(Number(total))) ? null : (
-    <div>
-      <span>Total:</span>
-      <span>{total}</span>
-    </div>
+    <p>
+      Total number of exercises: <span className="total">{total}</span>
+    </p>
   )
 }
 

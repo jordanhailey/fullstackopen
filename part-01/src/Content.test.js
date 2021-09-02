@@ -21,8 +21,6 @@ test('The "part" prop must be non-object value.', () => {
 
 test('The "numExercises" prop must be able to be coerced to a number.', () => {
   const content = render(<Content part={testPart} numExercises={testPartNumExercises} />);
-  expect(screen.getByText(/part:/i)).toBeInTheDocument();
-  expect(screen.getByText(/exercises:/i)).toBeInTheDocument();
   expect(screen.getByText(new RegExp(testPart,"i"))).toBeInTheDocument();
   expect(screen.getByText(new RegExp(testPartNumExercises,"i"))).toBeInTheDocument();
 });
