@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Part from './Part';
 
 const Content = (props) => {
-  const { part, numExercises } = props;
-  return (!part || typeof part == "object") ? null : (
-    <p>
-      <span className="part">{part}</span>: <span className="exercises">{!isNaN(numExercises) ? numExercises : 0}</span> exercises
-    </p>
+  const { parts } = props;
+  return (!Array.isArray(parts) || !parts.length) ? null : (
+    <div data-testid={"content"}>
+      {
+        parts.map((p,i) => {
+          const {part,exercises} = p;
+          return <Part key={i} part={part} numExercises={exercises} />
+        })
+      }
+    </div>
   )
 }
 
