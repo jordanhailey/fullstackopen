@@ -9,7 +9,7 @@
     3. [HTTP Requests 3](./part-00/exercise-0.6)
 
 ## Part 01 Intro to React  
-<!-- - [Notes](./part-01) -->
+- [Notes](./part-01)
 
 ## Part 02 Communicating with the server  
 <!-- - [Notes](./part-02) -->
