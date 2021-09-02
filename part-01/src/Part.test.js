@@ -9,7 +9,7 @@ test('Component only renders if the "part" prop is passed in.', () => {
   const part = render(<Part />);
   expect(()=>{screen.getAllByText(/./)}).toThrow();
   part.rerender(<Part part={testPart} />);
-  expect(screen.getAllByText(/./).length > 0);
+  expect(screen.getAllByText(/./).length > 0).toBe(true);
 });
 
 test('The "part" prop must be non-object value.', () => {
