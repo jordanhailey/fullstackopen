@@ -10,9 +10,9 @@
 
 ## Part 01 Intro to React
 - [Notes and Exercises](./part-01):
-  - Exercise 1.1 (commit: `78378228435c82f82d87d6706017ed2f85d916b2`)
-  - Exercise 1.2 (commit: `ccc0a7e2ede91e7ff20544b3d9de8f78c05a1195`)
-  - Exercises 1.3 - 1.5 (commit: `45f79c3b885da90197af51bb8e46bee63958cd84`)
+  - Exercise 1.1 (commit: [`78378228435c82f82d87d6706017ed2f85d916b2`](https://github.com/jordanhailey/fullstackopen/commit/78378228435c82f82d87d6706017ed2f85d916b2))
+  - Exercise 1.2 (commit: [`ccc0a7e2ede91e7ff20544b3d9de8f78c05a1195`](https://github.com/jordanhailey/fullstackopen/commit/ccc0a7e2ede91e7ff20544b3d9de8f78c05a1195))
+  - Exercises 1.3 - 1.5 (commit: [`45f79c3b885da90197af51bb8e46bee63958cd84`](https://github.com/jordanhailey/fullstackopen/commit/45f79c3b885da90197af51bb8e46bee63958cd84))
 
 ## Part 02 Communicating with the server
 <!-- - [Notes](./part-02) -->
