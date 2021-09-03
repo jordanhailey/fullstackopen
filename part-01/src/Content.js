@@ -7,8 +7,8 @@ const Content = (props) => {
     <div data-testid={"content"}>
       {
         parts.map((p,i) => {
-          const {part,exercises} = p;
-          return <Part key={i} part={part} numExercises={exercises} />
+          const {name,exercises} = p;
+          return <Part key={i} part={name} numExercises={exercises} />
         })
       }
     </div>
