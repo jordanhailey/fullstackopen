@@ -3,8 +3,8 @@ import '@testing-library/jest-dom';
 import Content from './Content';
 
 const testParts = [
-  {part:"Part 01",exercises:10},
-  {part:"Part 02",exercises:4},
+  {name:"Part 01",exercises:10},
+  {name:"Part 02",exercises:4},
 ]
 
 test('Component only renders if the "parts" prop is passed in as an Array.', () => {
@@ -14,13 +14,13 @@ test('Component only renders if the "parts" prop is passed in as an Array.', () 
   expect(()=>{screen.getAllByText(/./)}).toThrow();
   content.rerender(<Content parts={testParts} />);
   expect(screen.getAllByTestId("part").length > 0).toBe(true);
-  expect(screen.getAllByTestId("part")[0].innerHTML).toMatch(new RegExp(`${testParts[0].part}.+${testParts[0].exercises}.+exercises`,"i"));
+  expect(screen.getAllByTestId("part")[0].innerHTML).toMatch(new RegExp(`${testParts[0].name}.+${testParts[0].exercises}.+exercises`,"i"));
 });
 
 test('Component renders parts in their Array index order', () => {
   render(<Content parts={testParts} />);
   const [firstPart, secondPart] = screen.getAllByTestId("part");
-  const [{part:p1,exercises:e1},{part:p2,exercises:e2}] = testParts;
+  const [{name:p1,exercises:e1},{name:p2,exercises:e2}] = testParts;
   expect(firstPart.innerHTML).toMatch(new RegExp(`${p1}.+${e1}.+exercises`,"i"));
   expect(secondPart.innerHTML).toMatch(new RegExp(`${p2}.+${e2}.+exercises`,"i"));
   expect(Object.is(firstPart.nextElementSibling,secondPart)).toBe(true);
