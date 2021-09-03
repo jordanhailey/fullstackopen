@@ -26,6 +26,10 @@
 ### JavaScript
 > Source: https://fullstackopen.com/en/part1/java_script
 
+Vocab:
+- **Transpilation**: Converting source code into the equivilent code in another targetted language or version spec.
+  - Babel is a popular tool to handle this
+
 ### Component state, event handlers
 > Source: https://fullstackopen.com/en/part1/component_state_event_handlers
 
