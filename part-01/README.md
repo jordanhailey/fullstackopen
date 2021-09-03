@@ -4,8 +4,8 @@
 > [How to run locally](./docs/development.md)
 
 ## Exercises
-- [Exercise 1.1](./docs/exercise-1.1.md)
-- [Exercise 1.2](./docs/exercise-1.2.md)
+- [Exercises 1.1-1.2](https://fullstackopen.com/en/part1/introduction_to_react#exercises-1-1-1-2)
+- [Exercises 1.3-1.5](https://fullstackopen.com/en/part1/java_script#exercises-1-3-1-5)
 
 * * *
 ## Course Notes
